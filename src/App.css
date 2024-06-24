@@ -1,4 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set full height to body and html */
+html,
+body {
+  height: 100%;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   background-color: black;
+}
+
+.header {
+  background-color: black;
+  /* border: 1px solid white; */
+  border-bottom: 1px solid white;
+  height: 7vh;
+}
+.main {
+  background-color: black;
+  /* border: 1px solid white; */
+  flex-grow: 1;
+}
+.footer {
+  border-top: 1px solid white;
+  background-color: black;
+  /* border: 1px solid white; */
+  height: 5vh;
 }

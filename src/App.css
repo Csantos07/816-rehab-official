@@ -15,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: black;
+  background-color: #659f85;
 }
 
 .header {
@@ -24,11 +24,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 1.25rem;
+  padding: 2rem 1.25rem 2rem 0rem;
+  /* padding-right: 1.25rem; */
 }
 
 .nav-logo {
-  width: 60vw;
+  width: 50vw;
   max-width: 18.75rem;
 }
 
@@ -83,6 +84,7 @@ body {
   border-radius: 5px;
   color: white;
 }
+
 a {
   text-decoration: none;
   color: white;

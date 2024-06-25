@@ -25,12 +25,14 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 2rem 1.25rem 2rem 0rem;
+  position: fixed;
+  width: 100%;
   /* padding-right: 1.25rem; */
 }
 
 .nav-logo {
   width: 50vw;
-  max-width: 18.75rem;
+  max-width: 14rem;
 }
 
 .hamburger {

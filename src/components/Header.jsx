@@ -7,6 +7,7 @@ const Header = () => {
       <a
         href="https://816rehabandperformance.janeapp.com/#/staff_member/1/bio"
         target="_blank"
+        className="nav-button"
       >
         <div className="hamburger" id="hamburger">
           <div class="bar"></div>

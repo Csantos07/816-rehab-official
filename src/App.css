@@ -68,6 +68,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
+
 .inner-div {
   display: flex;
   flex-direction: column;
@@ -88,6 +97,11 @@ body {
   border: none;
   border-radius: 5px;
   color: white;
+  cursor: pointer;
+}
+
+.call-to-action:hover {
+  background-color: #50816b;
 }
 
 a {
@@ -107,4 +121,37 @@ a {
 .footer-logo {
   width: 40vw;
   max-width: 10.75rem;
+}
+
+@media (min-width: 810px) {
+  /* Your CSS rules for screens larger than 600px go here */
+  .main {
+    background: url("../public/logos/desktop-dark-bg.png") no-repeat center
+      center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .call-to-action {
+    position: relative;
+    top: -10rem;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .nav-button {
+    display: none;
+  }
 }

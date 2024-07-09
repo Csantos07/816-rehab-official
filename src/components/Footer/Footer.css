@@ -1,0 +1,13 @@
+.footer {
+  background-color: #659f85;
+  height: 5vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.footer-logo {
+  width: 40vw;
+  max-width: 10.75rem;
+}

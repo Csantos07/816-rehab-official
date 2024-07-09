@@ -1,0 +1,37 @@
+/*
+Helpful to turn of hover effect for mobile which appears to be an
+issue with the hover effect on mobile devices.
+
+https://ben.page/media-hover#:~:text=You%20can%20easily%20fix%20this,a%20cursor%20that%20can%20hover.&text=Now%2C%20the%20styles%20inside%20that,if%20the%20device%20supports%20hover.
+*/
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -30px;
+}
+.home-container .call-to-action {
+  background-color: #659f85;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  padding: 20px 40px;
+  width: fit-content;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.call-to-action:hover {
+  background-color: #50816b;
+}
+
+.home-container a {
+  text-decoration: none;
+  color: white;
+}

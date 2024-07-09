@@ -1,4 +1,5 @@
 // import logo from './logo.svg';
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -7,19 +8,13 @@ import Main from "./components/Main";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <Footer />
+      <Router>
+        <Header />
+        <Main />
+        <Footer />
+      </Router>
     </div>
   );
 }
 
 export default App;
-
-{
-  /*
-  <img src='/logos/mobile-dark-bg.png' />
-  <img src='/logos/eight-one-six-txt-logo.png' />
-  <img src='/logos/mobile-splash-logo.png' />
-*/
-}
